@@ -59,6 +59,12 @@ nav {
   display: none;
 }
 
+@media screen and (max-width: 1920px) {
+  nav {
+    margin-left: 50%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   nav {
     margin-left: 30%;
@@ -329,15 +335,5 @@ main .main_about {
 @media screen and (max-width: 460px) {
   .dropdown {
     transform: translateX(-9%);
-  }
-}
-
-@media screen and (min-width: 1367px) {
-  .header_logo {
-    margin-left: calc((100% - 76%) / 2); 
-  }
-  
-  nav {
-    margin-left: calc((100% - 76%) / 2); 
   }
 }
