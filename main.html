@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Спорт КТК</title>
+    <link rel="icon" type="images/x-icon" href="favicon/sport.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header_logo"><p>Спорт Клуб</p></div>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="#welcome">ГЛАВНАЯ</a>
+        <a href="#section">СЕКЦИИ</a>
+        <a href="#trainers">ТРЕНЕРА</a>
+        <a href="#medals">ДОСТИЖЕНИЯ</a>
+        <a href="#" id="open_pop_up">ЗАПИСЬ</a>
+        <a href="#" id="menu" class="icon">&#9776;</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="main_welcome" id="welcome">
+    <h1>ПРИВЕТСТВУЕМ ТЕБЯ В <span class="mycompany">СПОРТКЛУБЕ</span></h1>
+    <p>Играй за любимый колледж вместе с нами</p>
+  </div>
+  <div class="wrapper">
+    <div class="main_about"  id="section">
+      <div class="about_left">
+        <img class="mw-100" src="img/logo.png" alt="sport">
+      </div>
+      <div class="about_right">
+        <h1>СЕКЦИИ СПОРТКЛУБА</h1>
+        <p>В нашем колледже студенты могут записаться на различные спортивные секции</p>
+        <ul>
+          <li>Баскетбол</li>
+          <li>Волейбол</li>
+          <li>Мини-футбол</li>
+          <li>Настольный теннис</li>
+          <li>Лыжи</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div class="main_team" id="trainers">
+  <div class="wrapper">
+  <h1>ТРЕНЕРА</h1>
+  <div class="line"></div>
+  <div class="team_cards">
+      <div class="card">
+          <div class="photo"></div>
+            <h4 class="name">Иксанова Татьяна</h4>
+            <p class="position">тренер</p>
+            <p class="about_position">Тренер баскетбольной команды и настольного тенниса</p>
+          </div>
+      <div class="card">
+          <div class="photo"></div>
+            <h4 class="name">Кичигин Игорь</h4>
+            <p class="position">тренер</p>
+            <p class="about_position">Тренер лыжного спорта</p>
+          </div>
+      <div class="card">
+          <div class="photo"></div>
+            <h4 class="name">Демидова Анастасия</h4>
+            <p class="position">тренер</p>
+            <p class="about_position">Тренер волейбольной команды</p>
+          </div>
+      <div class="card">
+          <div class="photo"></div>
+            <h4 class="name">Федоров Евгений</h4>
+            <p class="position">тренер</p>
+            <p class="about_position">Тренер футбольной команды</p>
+          </div>
+      </div>
+  </div>
+  </div>
+
+
+<div class="main_services" id="medals">
+<div class="wrapper">
+  <h1>НАШИ ДОСТИЖЕНИЯ</h1>
+  <div class="line"></div>
+  <p><i>Студенты нашего колледжа часто принимают участие в различных спортивных соревнованиях. Вот некоторые достижения наших ребят.</i></p>
+
+  <div class="services_cards">
+    <div class="services_card">
+      <img src="img/kubok.png" alt="sport">
+      <h4>БАСКЕТБОЛ</h4>
+      <p>Команда баскетболистов ездили на межколледжные спортивные соревнования и заняли первое место</p>
+    </div>
+    <div class="services_card">
+      <img src="img/kubok.png" alt="sport">
+      <h4>МИНИ-ФУТБОЛ</h4>
+      <p>Заняли второе место на товарищеской встрече со сборными командами учебных заведений г. Кургана</p>
+    </div>
+    <div class="services_card">
+      <img src="img/kubok.png" alt="sport">
+      <h4>НАСТОЛЬНЫЙ ТЕННИС</h4>
+      <p>Были на соревнованиях на кубок КТК между сборными командами отделений и заняли там второе место</p>
+    </div>
+    <div class="services_card">
+      <img src="img/kubok.png" alt="sport">
+      <h4>ВОЛЕЙБОЛ</h4>
+      <p>Волейбольная команда заняла третье место на областных соревнованиях</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</main>
+
+<div class="pop_up" id="pop_up">
+  <div class="pop_up_container">
+    <div class="pop_up_body" id="pop_up_body">
+    <div class="pop_up_close" id="pop_up_close">&#10006;</div>
+      <p>Оставить заявку</p>
+      <form action="">
+        <input type="text" placeholder="Фамилия">
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="+7(999)999-99-99">
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">Выберите секцию</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li>Баскетбол</li>
+            <li>Волейбол</li>
+            <li>Мини-футбол</li>
+            <li>Настольный тенис</li>
+            <li>Лыжи</li>
+          </ul>
+        </div>
+
+        <button class="button1">Записаться</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+    <script src="script.js"></script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+  </body>
+</html>
