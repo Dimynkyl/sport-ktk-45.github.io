@@ -302,3 +302,24 @@ main .main_about {
     grid-template-columns: auto;
   }
 }
+
+@media screen and (max-width: 1366px) {
+  
+  .header_logo {
+    margin-left: 10%;
+  }
+
+  nav {
+    margin-left: 15%; 
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header_logo {
+    margin-left: 8%;
+  }
+  
+  nav {
+    margin-left: 12%; 
+  }
+}
