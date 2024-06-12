@@ -61,7 +61,7 @@ nav {
 
 @media screen and (max-width: 1200px) {
   nav {
-    margin-left: 20%;
+    margin-left: 30%;
   }
 }
 
@@ -225,7 +225,7 @@ main .main_about {
 }
 
 .wrapper p{
-   text-align: center;
+  text-align: center;
 }
 
 .main_team h1 {
