@@ -194,60 +194,7 @@ main .main_about {
     margin-left: 0;
 }
 }
-.main_team {
-  background: black;
-  text-align: center;
-  padding: 100px 0 165px 0;
-  color: white;
-}
 
-.main_team h1 {
-  font-size: 44px;
-  padding-bottom: 30px;
-}
-
-.line {
-  width: 100px;
-  height: 3px;
-  background: #00CED1;
-  position: relative;
-  margin: 0 auto 85px auto;
-  left: 45,5%;
-}
-
-.photo {
-  background: white;
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;
-  margin: 20px auto;
-
-}
-
-.team_cards {
-  display: flex;
-}
-
-.card {
-  margin: 0 30px;
-}
-.name {
-  font-size: 20px;
-  margin-bottom: 7px;
-  white-space: nowrap;
-}
-
-.position {
-  font-size: 16px;
-  color: #00CED1;
-  font-weight: 800;
-  margin-bottom: 35px;
-
-}
-
-.about_position {
-  font-size: 14px;
-}
 @media screen and (max-width: 1010px) {
   .team_cards {
     flex-direction: column;
@@ -269,7 +216,79 @@ main .main_about {
 .main_services p {
   margin-bottom: 100px;
 }
+.main_team {
+  background: black;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+}
 
+.main_team h1 {
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background: #00CED1;
+  margin: 0 auto 85px;
+}
+
+.photo {
+  background: white;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.team_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.card {
+  margin: 0;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.position {
+  font-size: 16px;
+  color: #00CED1;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+
+.about_position {
+  font-size: 14px;
+}
+
+/* Адаптивность с помощью медиа-запросов */
+@media (max-width: 768px) {
+  .team_cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .team_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .team_cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 .services_card h4{
   margin-top: 20px;
   margin-bottom: 15px;
@@ -282,7 +301,6 @@ main .main_about {
 }
 
 @media screen and (max-width: 1366px) {
-
   .header_logo {
     margin-left: 10%;
   }
@@ -292,8 +310,7 @@ main .main_about {
   }
 }
 
-@media screen and (max-width: 1280px) {
-
+@media screen and (max-width: 1280px) 
   .header_logo {
     margin-left: 10%;
   }
