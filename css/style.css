@@ -220,8 +220,12 @@ main .main_about {
 .main_team {
   background: black;
   text-align: center;
-  padding: 100px 0;
+  padding: 150px 0;
   color: white;
+}
+
+.wrapper p{
+   text-align: center;
 }
 
 .main_team h1 {
