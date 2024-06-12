@@ -304,9 +304,8 @@ main .main_about {
 }
 
 @media screen and (max-width: 1366px) {
-  
   .header_logo {
-    margin-left: 10%;
+    margin-left: 15%;
   }
 
   nav {
