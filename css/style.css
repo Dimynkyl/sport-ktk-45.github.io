@@ -216,6 +216,7 @@ main .main_about {
 .main_services p {
   margin-bottom: 100px;
 }
+
 .main_team {
   background: black;
   text-align: center;
@@ -284,7 +285,7 @@ main .main_about {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1366px) {
   .team_cards {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -309,11 +310,6 @@ main .main_about {
     margin-left: 35%;
   }
 }
-
-@media screen and (max-width: 1280px) 
-  .header_logo {
-    margin-left: 10%;
-  }
 
   nav {
     margin-left: 12%; /* Еще больше уменьшаем отступ навигации */
