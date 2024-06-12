@@ -331,3 +331,13 @@ main .main_about {
     transform: translateX(-9%);
   }
 }
+
+@media screen and (min-width: 1367px) {
+  .header_logo {
+    margin-left: calc((100% - 76%) / 2); 
+  }
+  
+  nav {
+    margin-left: calc((100% - 76%) / 2); 
+  }
+}
